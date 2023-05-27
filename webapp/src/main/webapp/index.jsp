@@ -1,6 +1,8 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>CI Course - New Account Register</h1>
+    <h1>CI/CD Course - New Account Register</h1>
+    <h4> <a href="https://github.com/enzofurlan/ci-course-hello-world">Enzo Furlan</a> - 2023 </h4>
+
     <p>Please fill in this form to create a new account.</p>
     <hr>
      
@@ -25,14 +27,11 @@
     <hr>
 
     <br>
-    <p>By creating an account you agree with our <a href="#">Terms & Privacy</a>.</p>
+    <p>By creating an account you agree with our <a href="https://github.com/enzofurlan/ci-course-hello-world">Terms & Privacy</a>.</p>
     <button type="submit" class="registerbtn">Create</button>
   </div>
   <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
+    <p>Already have an account? <a href="https://github.com/enzofurlan/ci-course-hello-world">Sign in</a>.</p>
   </div>
-
-   <h4> Enzo Furlan - 2023 </h4>
-
   
 </form>
