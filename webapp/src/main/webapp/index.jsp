@@ -1,13 +1,17 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>CI/CD Course - Account Register - LIVE DEMO</h1>
+    <h1>CI/CD Course - Account Register - LIVE DEMO 2</h1>
     <h4> <a href="https://github.com/enzofurlan/ci-course-hello-world">Enzo Furlan</a> - 2023 </h4>
 
     <p>Please fill in this form to create a new account.</p>
     <hr>
      
-    <label for="Name"><b>Full Name</b></label>
-    <input type="text" placeholder="Enter your full name" name="name" id="name" required>
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Enter your first name" name="fname" id="fname" required>
+    <br>
+    <br>
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter your last name" name="lname" id="lname" required>
     <br>
     <br>
     <label for="mobile"><b>Mobile</b></label>
@@ -21,6 +25,10 @@
     <label for="pass"><b>Password</b></label>
     <input type="password" placeholder="Enter your password" name="pass" id="pass" required>
     <br>
+    <br>
+    <label for="pass-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat your password" name="pass-repeat" id="pass-repeat" required>
+    <hr>
 
     <br>
     <p>By creating an account you agree with our <a href="https://github.com/enzofurlan/ci-course-hello-world">Terms & Privacy</a>.</p>
